@@ -23,4 +23,4 @@ spring:
       # OK for development. For production, use Flyway or Liquibase migrations
       # and set this to "validate" (only checks schema matches entities).
       ddl-auto: update
-    show-sql: false
+    show-sql: true
